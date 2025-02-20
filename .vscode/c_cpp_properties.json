@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/mesh_segmentation",
+                "${workspaceFolder}/third_party",
+                "${workspaceFolder}/third_party/imgui/backends",
+                "${workspaceFolder}/third_party/imgui",
+                "${workspaceFolder}/third_party/glm",
+                "${workspaceFolder}/third_party/plog/include",
+                "${workspaceFolder}/third_party/glad/include",
+                "${workspaceFolder}/third_party/glfw/include",
+                "${workspaceFolder}/build",
+                "${workspaceFolder}/third_party/obj-loader",
+                "${workspaceFolder}/src/model_renderer/include",
+                "${workspaceFolder}/third_party/libigl/include",
+                "${workspaceFolder}/include/geometry"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/g++"
+        }
+    ],
+    "version": 4
+}
