@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  kmeans-app:
+    build: .
+    container_name: kmeans-container
+    restart: always
+    volumes:
+      - ./data:/workspace/data  # Only mount necessary directories, NOT `build/`
+    tty: true  # Keep the container running
